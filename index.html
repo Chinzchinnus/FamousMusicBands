@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World Famous Music Bands</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Famous Music Bands Voting</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Music Bands Voting!</h1>
+        <p>Instructions: Click on a band to see details. Press the thumbs up button to vote and play their hit song!</p>
+        <button id="stop-global" class="global-btn">⏹ Stop Music</button>
+    </header>
 
+    <main>
+        <section id="bands-container">
+            <!-- Bands will be loaded here dynamically -->
+        </section>
+    </main>
+
+    <div id="party-popper" class="hidden">🎉🎉🎉</div>
+
+<script src="script.js"></script>
+</body>
+</html>
